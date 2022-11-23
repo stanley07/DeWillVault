@@ -5,7 +5,7 @@ export default function Form({ onSubmit, currentAccountId }) {
   return (
     <form onSubmit={onSubmit}>
       <fieldset id="fieldset">
-        <p>Sign the guest book, { currentAccountId }!</p>
+        <p>{ currentAccountId }!</p>
         <p className="highlight">
           <label htmlFor="message">Message:</label>
           <input
@@ -16,20 +16,23 @@ export default function Form({ onSubmit, currentAccountId }) {
           />
         </p>
         <p>
-          <label htmlFor="donation">Donation (optional):</label>
+          <label htmlFor="donation">Transaction fee :<span title="NEAR Tokens"> <strong>1 Ⓝ</strong> </span></label>
           <input
             autoComplete="off"
-            defaultValue={'0'}
+            defaultValue={"1"}
             id="donation"
-            min="0"
-            step="0.01"
+            min="1"
+            max="1"
+            step="1"
             type="number"
           />
           <span title="NEAR Tokens">Ⓝ</span>
         </p>
+       
         <button type="submit">
-          Sign
+          Sign the Will
         </button>
+        
       </fieldset>
     </form>
   );

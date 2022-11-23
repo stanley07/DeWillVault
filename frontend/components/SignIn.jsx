@@ -4,18 +4,17 @@ export default function SignIn() {
   return (
     <>
       <p>
-          This app demonstrates a key element of NEAR’s UX: once an app has
-          permission to make calls on behalf of a user (that is, once a user
-          signs in), the app can make calls to the blockchain for them without
-          prompting extra confirmation. So you’ll see that if you don’t
-          include a donation, your message gets posted right to the guest book.
+          DeWill Vault is a decentralized Will and Testament storage vault built on Near Ecosystem. 
+          This is an immutable and tamper-proof storage system that does not decay in time and can never 
+          be destroyed. Once you login with your Near account you can easily write your Will and Testament 
+          to the the blockchain at the cost of 1 Near!.
       </p>
       <p>
-          But, if you do add a donation, then NEAR will double-check that
-          you’re ok with sending money to this app.
+      Some people believe that they don’t own enough assets or have a big enough net worth to necessitate a Will. 
+      But regardless of your age, net worth, or stage in life, having a Last Will and Testament should be a top priority!
       </p>
       <p>
-          Go ahead and sign in to try it out!
+          Go ahead and sign in to write your last WILL!
       </p>
     </>
   );
