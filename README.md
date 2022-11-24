@@ -1,4 +1,4 @@
-# Guest Book 📖 
+# DeWill Vault 📖 
 [![](https://img.shields.io/badge/⋈%20Examples-Basics-green)](https://docs.near.org/tutorials/welcome)
 [![](https://img.shields.io/badge/Gitpod-Ready-orange)](https://gitpod.io/#/https://github.com/near-examples/guest-book-js)
 [![](https://img.shields.io/badge/Contract-js-yellow)](https://docs.near.org/develop/contracts/anatomy)
@@ -6,9 +6,9 @@
 [![](https://img.shields.io/badge/Testing-passing-green)](https://docs.near.org/develop/integrate/frontend)
 
 
-The Guest Book is a simple app that stores messages from users, allowing to pay for a premium message.
+DeWill Vault is a decentralized Will and Testament storage vault built on Near Ecosystem..
 
-![](https://docs.near.org/assets/images/guest-book-b305a87a35cbef2b632ebe289d44f7b2.png)
+![](./images/DeWill.png)
 
 
 # What This Example Shows
@@ -22,27 +22,21 @@ The Guest Book is a simple app that stores messages from users, allowing to pay 
 
 # Quickstart
 
-Clone this repository locally or [**open it in gitpod**](https://gitpod.io/#/github.com/near-examples/guest_book-js). Then follow these steps:
+Clone this repository locally ("https://github.com/stanley07/DeWillVault.git"). Then follow these steps:
 
 ### 1. Install Dependencies
 ```bash
 npm install
 ```
 
-### 2. Test the Contract
-Deploy your contract in a sandbox and simulate interactions from users.
 
-```bash
-npm test
-```
-
-### 3. Deploy the Contract
+### 2. Deploy the Contract
 Build the contract and deploy it in a testnet account
 ```bash
 npm run deploy
 ```
 
-### 4. Start the Frontend
+### 3. Start the Frontend
 Start the web application to interact with your smart contract 
 ```bash
 npm start
