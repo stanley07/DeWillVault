@@ -11,18 +11,18 @@ DeWill Vault is a decentralized Will and Testament storage vault built on Near E
 ![](./images/DeWill.png)
 
 
-# What This Example Shows
+# What This Project does
 
-1. How to receive $NEAR on a contract.
-2. How to store and retrieve information from the blockchain.
-3. How to use a `Vector`.
-4. How to interact with a contract from `React JS`.
+1. Immutable storage of Wills and Testament
+2. Blockchain storage system on $NEAR protocol
+3. Easy to use but highly secured
+4. Testament protection should be a top priority!
 
 <br />
 
 # Quickstart
 
-Clone this repository locally ("https://github.com/stanley07/DeWillVault.git"). Then follow these steps:
+Clone this repository locally to reproduce ("https://github.com/stanley07/DeWillVault.git"). Then follow these steps:
 
 ### 1. Install Dependencies
 ```bash
