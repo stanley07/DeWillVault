@@ -5,6 +5,7 @@
 [![](https://img.shields.io/badge/Frontend-React-blue)](https://docs.near.org/develop/integrate/frontend)
 [![](https://img.shields.io/badge/Testing-passing-green)](https://docs.near.org/develop/integrate/frontend)
 
+![](./images/vault.jpeg)
 
 DeWill Vault is a decentralized Will and Testament storage vault built on Near Ecosystem..
 
